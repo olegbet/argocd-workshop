@@ -16,7 +16,7 @@ spec:
     namespace: dev-go
 
   syncPolicy:
-      automated:
+    automated:
       selfHeal: true
       prune: true
     syncOptions:
