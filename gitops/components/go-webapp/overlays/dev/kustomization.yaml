@@ -10,7 +10,7 @@ patches:
 configMapGenerator:
   - name: app-envs
     envs:
-      - envs/app.env.example
+      - envs/app.env
 
 secretGenerator:
   - name: app-secrets
